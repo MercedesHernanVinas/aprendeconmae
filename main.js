@@ -5,4 +5,7 @@ function checkPassword() {
   //document.getElementById("pwdCont").remove();
     window.location.href = "https://sites.google.com/view/portafoliodocenteb2/inicio";
   }
+  else{
+    alert("Contraseña incorrecta.");
+  }
 }
